@@ -1,0 +1,45 @@
+body {
+    font-family: 'Fraunces', serif;
+}
+
+.card__product {
+    font-family: 'Montserrat', sans-serif;
+    &__description {
+        font-family: 'Montserrat', sans-serif;
+        font-size: .8rem;
+    };
+    &__title {
+        color: $color-darkblue;
+    };
+    &__category {
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: 7px;
+    }
+    &__title {
+        font-weight: 700;
+    }
+    &__description {
+        font-size: 1rem;
+    }
+}
+
+.card__button {
+    color: $color-white;
+    background: $color-darkcyan;
+    font-weight: 700;
+}
+
+
+.card__price__product {
+    color: $color-darkcyan;
+    font-weight: 700;
+    font-size: 2rem;
+    &--old {
+        color: $color-grayishblue;
+        text-decoration: line-through;
+        font-weight: 500;
+        line-height: 34px;
+
+    };
+}
