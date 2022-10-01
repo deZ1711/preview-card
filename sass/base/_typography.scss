@@ -1,15 +1,13 @@
 body {
     font-family: 'Fraunces', serif;
 }
-
-.card__product {
+.card {
+    &__product {
     font-family: 'Montserrat', sans-serif;
+    }
     &__description {
         font-family: 'Montserrat', sans-serif;
-        font-size: .8rem;
-    };
-    &__title {
-        color: $color-darkblue;
+        font-size: 1rem;
     };
     &__category {
         font-weight: 500;
@@ -18,9 +16,7 @@ body {
     }
     &__title {
         font-weight: 700;
-    }
-    &__description {
-        font-size: 1rem;
+        color: $color-darkblue;
     }
 }
 
@@ -31,7 +27,7 @@ body {
 }
 
 
-.card__price__product {
+.cardprice__product {
     color: $color-darkcyan;
     font-weight: 700;
     font-size: 2rem;
